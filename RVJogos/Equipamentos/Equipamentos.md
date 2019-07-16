@@ -3,6 +3,9 @@ title: Laborátorio de Realidade virtual e Jogos Digitais
 date: Abril 2019
 ---
 
+\tableofcontents
+\clearpage
+
 # Leap Motion
 
 ![Leap Motion](img/leapMotion.png)
@@ -21,7 +24,7 @@ No site oficial é possivel encontrar exemplos de aplicações e o SDK.
 
 # HTC Vive/Pro
 
-Sistema de Realidade virtual, desenvolvido pela HTC junto a Valve. Sua tecnologia de restreamento permite o usuário se mover no espaço 3D com movimentação real. 
+Sistema de Realidade virtual, desenvolvido pela HTC junto a Valve. Sua tecnologia de restreamento permite o usuário se mover no espaço 3D com movimentação real.
 
 ![HTC Vive](img/vive.jpg)
 
@@ -47,7 +50,7 @@ Console de oitava geração utilizado para testes de aplicações para o console
 
 \pagebreak
 
-# Kinect 
+# Kinect
 
 ![Kinect](img/kinect.png)
 
@@ -59,27 +62,6 @@ Dipositivo de captura de movimento utilizando tecnologia infravermelho e nuvem d
 
 \pagebreak
 
-# X Box One X
-
-![X Box One X](img/xboxx.png)
-
-Console de oitava geração utilizado para testes de aplicações para o console.
-
-\pagebreak
-
-# PlayStation 4
-
-![PlayStation 4](img/ps4.png)
-
-\pagebreak
-
-# PlayStation VR
-
-![PlayStation VR](img/psvr.png)
-
-Headset de Realidade virtual para uso com o console PlayStation 4
-
-\pagebreak
 
 # Volante Thrustmaster com Force Feedback
 
@@ -105,9 +87,9 @@ Sistema de fixação robusto e versátil, compatível com todas as montagens (se
 
 ![3DSystems Touch](img/touch.png)
 
-Touch é um dispositivo motorizado que aplica _force feedback_ à mão do usuário, permitindo assim uma sensação de toque de objetos virtuais. 
+Touch é um dispositivo motorizado que aplica _force feedback_ à mão do usuário, permitindo assim uma sensação de toque de objetos virtuais.
 
-Soluções podem ser projetadas utilizando o sistema háptico, para conseguir resultados mais imersivos. 
+Soluções podem ser projetadas utilizando o sistema háptico, para conseguir resultados mais imersivos.
 
 Ele pode ser utilizado em aplicações como: Simulações, treinamentos, controle robótico entre outras IHC.
 
