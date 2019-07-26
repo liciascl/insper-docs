@@ -118,3 +118,6 @@ O Microsoft HoloLens é feito de componentes especializados que juntos permitem 
 [Criando seu primeiro projeto em Realidade Mista](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-100)
 
 \pagebreak
+
+# Magic Leap One
+
