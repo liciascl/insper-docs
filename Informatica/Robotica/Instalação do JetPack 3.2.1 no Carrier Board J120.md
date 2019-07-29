@@ -13,10 +13,6 @@ Neste guia, faremos os setups iniciais no carrier board J120 com o módulo da Nv
 
 - Um Host PC com Linux 16.04
 - Fonte de alimentação 12V
-- Rede local 
-- Cabo ethernet
-- Micro HDMI
-- Mouse/teclado
 
 # Configurando o Host PC 
 
@@ -44,20 +40,20 @@ mv ~/Downloads/JetPack-L4T-3.2.1-linux-x64_b23.run  ~/temp
 ./JetPack-L4T-3.2.1-linux-x64_b23.run 
 
 ```
-![Clique em Next](img/JetPack_1.png)
-Clique em Next
-![Configure corretamente o diretório para instalação](img/JetPack_2.png)
-Configure corretamente o diretório para instalação
-![Selecione a placa Jetson TX2](img/JetPack_3.png)
-Selecione a placa Jetson TX2
-![Configure corretamente os pacotes que serão instalados na placa](img/JetPack_4.png)
-Configure corretamente os pacotes que serão instalados na placa
-![Configure corretamente os pacotes que serão instalados na placa](img/JetPack_5.png)
-Configure corretamente os pacotes que serão instalados na placa
-![Next para seguir a instalção](img/Jetson_7.png)
-Next para seguir a instalção
-![Selecione Finish](img/Jetson_8.png)
-Selecione Finish
+![Clique em Next](img/JetPack_1.png) Clique em Next
+
+![Configure corretamente o diretório para instalação](img/JetPack_2.png) Configure corretamente o diretório para instalação
+
+![Selecione a placa Jetson TX2](img/JetPack_3.png) Selecione a placa Jetson TX2
+
+![Configure corretamente os pacotes que serão instalados na placa](img/JetPack_4.png) Configure corretamente os pacotes que serão instalados na placa
+
+![Configure corretamente os pacotes que serão instalados na placa](img/JetPack_5.png) Configure corretamente os pacotes que serão instalados na placa
+
+![Next para seguir a instalção](img/Jetson_7.png) Next para seguir a instalção
+
+![Selecione Finish](img/Jetson_8.png) Selecione Finish
+
 
 Você pode fazer o Download do arquivo diretamente clicanto [aqui](link/CTI-L4T-V112.tgz), ou, acesse o [site](http://connecttech.com/support/resource-center/nvidia-jetson-tx2-tx1-product-support/) e siga os passos conforme a imagem...
 ![imagem](img/Jetson_6.png)
@@ -91,15 +87,15 @@ sudo ./install.sh
 
 ```
 
-![Instalação](img/Jetson_9.png)
-Aguarde a instalção terminar
+![Instalação](img/Jetson_9.png) Aguarde a instalção terminar
+ 
 
-![Ligação do cabo de alimentação](img/Jetson_10.png)
-Conecte os cabos de alimentação tomando cuidado com a polaridade
+![Ligação do cabo de alimentação](img/Jetson_10.png) Conecte os cabos de alimentação tomando cuidado com a polaridade
 
 
-![Conectando a fonte de alimentação](img/Jetson_11.png)
-Alimente a placa com 12 Volts
+
+![Conectando a fonte de alimentação](img/Jetson_11.png) Alimente a placa com 12 Volts
+
 
 
 ![Entre no modo de programação](img/modo_de_programacão.mp4)
