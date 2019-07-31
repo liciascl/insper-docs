@@ -9,10 +9,10 @@
 [Script para rodar a DEMO da caixa de Robotica - Turtlebot3](https://github.com/Insper/404/blob/master/scripts_robotica/demo.sh)
 
 
-[Script para rodar a DEMO do YoloV3 na Jetson TX2]( )
+[Script para rodar a DEMO do YoloV3 na Jetson TX2](https://github.com/Insper/404/blob/master/Jetson_TX2/rodar_yolov3.sh)
 
 
-[Script para configurar a Jetson TX2 no maximo da sua capacidade de processamento]( )
+[Script para configurar a Jetson TX2 no maximo da sua capacidade de processamento](https://github.com/Insper/404/blob/master/Jetson_TX2/max_performance.sh)
 
 
 
