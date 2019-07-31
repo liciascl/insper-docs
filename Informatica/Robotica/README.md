@@ -1,5 +1,3 @@
-# Documentação de procedimentos e Manuais 
-
 # Tutoriais 
 [Instalação do JetPack 3.2.1 no Carrier Board J120](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/Instala%C3%A7%C3%A3o%20do%20JetPack%203.2.1%20no%20Carrier%20Board%20J120.md)
 
