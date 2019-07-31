@@ -5,7 +5,7 @@ date: Julho 2019
 
 #  Carrier Board J120
 
-![Carrier Board J120](img/J120.png)
+![Carrier Board J120](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/img/WhatsApp%20Image%202019-07-29%20at%2007.46.42.jpeg)
 
 Neste guia, faremos os setups iniciais no carrier board J120 com o módulo da Nvidia Jetson TX2.
 
@@ -57,7 +57,7 @@ Selecione Finish
 ![Selecione Finish](img/Jetson_8.png) 
 
 Você pode fazer o Download do arquivo diretamente clicanto [aqui](link/CTI-L4T-V112.tgz), ou, acesse o [site](http://connecttech.com/support/resource-center/nvidia-jetson-tx2-tx1-product-support/) e siga os passos conforme a imagem...
-![imagem](img/Jetson_6.png)
+![imagem](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/img/download.png)
 
 - Copie o Arquivo baixado para o diretório Linux_for_Tegra_TX2 dentro da pasta 64_TX2 usando o comando a seguir;
 
@@ -88,15 +88,20 @@ sudo ./install.sh
 
 ```
 Aguarde a instalção terminar
+
 ![Instalação](img/Jetson_9.png) 
+
 Conecte os cabos de alimentação tomando cuidado com a polaridade
+
 ![Ligação do cabo de alimentação](img/Jetson_10.jpeg) 
- Alimente a placa com 12 Volts
+
+Alimente a placa com 12 Volts
+
 ![Conectando a fonte de alimentação](img/Jetson_11.jpeg)
 
 - Segure o botão Power, depois o Recovery, depois o Reset
 - Solte o Power, depois o Recovery, depois o Reset para entrar em mode de programação
-![Entre no modo de programação](img/programacão.mp4)
+![Entre no modo de programação](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/img/ezgif.com-video-to-gif.gif)
 
 - Verifique se a placa está no modo de programação
 
@@ -104,7 +109,7 @@ Conecte os cabos de alimentação tomando cuidado com a polaridade
 lsusb
 
 ```
-![Verificando se a placa está no modo de programação](img/Jetson_15.png)
+![Verificando se a placa está no modo de programação](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/img/lsusb.png)
 
 - Hora de gravar o firmawre na placa! 
 Digite os comandos a seguir em um terminal;
@@ -117,7 +122,7 @@ sudo ./flash.sh orbitty mmcblk0p1
 ```
 
 - Aguarde o fim da gravação
-![Info sobre o fim da gravação](img/Jetson_17.png)
+![Info sobre o fim da gravação](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/img/fim_da_gravacao.png)
 
 
 
@@ -126,7 +131,7 @@ sudo ./flash.sh orbitty mmcblk0p1
 
 
 
-## Tutorial adaptado com base no (Flashing NVIDIA Jetson TX2 or TX1 Module)[https://www.youtube.com/watch?v=9uMvXqhjxaQ] Feito por Jacob Wighton, Engineering Technical Support da Connect Tech Inc.
+Tutorial adaptado com base no [Flashing NVIDIA Jetson TX2 or TX1 Module](https://www.youtube.com/watch?v=9uMvXqhjxaQ) Feito por Jacob Wighton, Engineering Technical Support da Connect Tech Inc.
 
 
 
