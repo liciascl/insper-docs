@@ -3,6 +3,7 @@
 
 [Instalação do YOLOV3 na JetsonTX2](https://github.com/Insper/404/blob/master/Jetson_TX2/Tutorial_YOLOV3_on_JETSONTX2.md)
 
+[Como se conectar a rede asimov](https://github.com/Insper/404/blob/master/Rede_Asimov/Como_se_conectar_na_rede_asimov.md)
 
 # Scripts automatizados 
 
