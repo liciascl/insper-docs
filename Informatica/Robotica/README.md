@@ -9,7 +9,9 @@
 
 [Instala infra de Robotica Computacional no Linux 18.04 (Versão 2019-01)](https://github.com/Insper/404/blob/master/scripts_robotica/infra_robotica.sh)
 
-[Executa a DEMO da caixa de Robotica - Turtlebot3](https://github.com/Insper/404/blob/master/scripts_robotica/demo.sh)
+[Bringup automatico do turtlebot no computador] (https://github.com/Insper/404/blob/master/scripts_robotica/start_robo.sh)
+
+[Executa a DEMO do turtlebot3 - procura a caixa laranja (https://github.com/Insper/404/blob/master/scripts_robotica/demo.sh)
 
 
 [Executa a DEMO do YoloV3 na Jetson TX2](https://github.com/Insper/404/blob/master/Jetson_TX2/rodar_yolov3.sh)
