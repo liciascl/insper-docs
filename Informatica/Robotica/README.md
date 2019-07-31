@@ -2,7 +2,6 @@
 [Instalação do JetPack 3.2.1 no Carrier Board J120](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/Instala%C3%A7%C3%A3o%20do%20JetPack%203.2.1%20no%20Carrier%20Board%20J120.md)
 
 
-
 # Scripts automatizados 
 
 [Limpeza do historico de comandos no terminal, senha/login na rede wifi e o historico do firefox](https://github.com/Insper/404/blob/master/scripts_robotica/limpeza_marota.sh)
@@ -19,6 +18,8 @@
 
 [Configura a Jetson TX2 no maximo da sua capacidade de processamento](https://github.com/Insper/404/blob/master/Jetson_TX2/max_performance.sh)
 
+[Instala do OpenCV 3.4.0 na Jetson TX2](https://github.com/Insper/404/blob/master/Jetson_TX2/instala_opencv3.4.0_JetsonTX2.sh)
+
 
 
 
@@ -31,3 +32,4 @@
 
 [Manual do Fabricante Turtlebot3 - Burger ](https://drive.google.com/drive/folders/13JiMVwklAkd51lWxJTq1ACc4vhly9uup)
 
+..
