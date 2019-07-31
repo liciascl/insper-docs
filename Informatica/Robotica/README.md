@@ -4,15 +4,18 @@
 
 
 # Scripts automatizados 
-[Script que instala infra de Robotica Computacional no Linux 18.04 (Versão 2019-01)](https://github.com/Insper/404/blob/master/scripts_robotica/infra_robotica.sh)
 
-[Script para rodar a DEMO da caixa de Robotica - Turtlebot3](https://github.com/Insper/404/blob/master/scripts_robotica/demo.sh)
+[Limpeza do historico de comandos no terminal, senha/login na rede wifi e o historico do firefox](https://github.com/Insper/404/blob/master/scripts_robotica/limpeza_marota.sh)
+
+[Instala infra de Robotica Computacional no Linux 18.04 (Versão 2019-01)](https://github.com/Insper/404/blob/master/scripts_robotica/infra_robotica.sh)
+
+[Executa a DEMO da caixa de Robotica - Turtlebot3](https://github.com/Insper/404/blob/master/scripts_robotica/demo.sh)
 
 
-[Script para rodar a DEMO do YoloV3 na Jetson TX2](https://github.com/Insper/404/blob/master/Jetson_TX2/rodar_yolov3.sh)
+[Executa a DEMO do YoloV3 na Jetson TX2](https://github.com/Insper/404/blob/master/Jetson_TX2/rodar_yolov3.sh)
 
 
-[Script para configurar a Jetson TX2 no maximo da sua capacidade de processamento](https://github.com/Insper/404/blob/master/Jetson_TX2/max_performance.sh)
+[Configura a Jetson TX2 no maximo da sua capacidade de processamento](https://github.com/Insper/404/blob/master/Jetson_TX2/max_performance.sh)
 
 
 
