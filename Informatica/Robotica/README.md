@@ -1,5 +1,6 @@
 # Tutoriais 
 [Instalação do JetPack 3.2.1 no Carrier Board J120](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/Instala%C3%A7%C3%A3o%20do%20JetPack%203.2.1%20no%20Carrier%20Board%20J120.md)
+[Instalação do YOLOV3 na JetsonTX2](https://github.com/Insper/404/blob/master/Jetson_TX2/Tutorial_YOLOV3_on_JETSONTX2.md)
 
 
 # Scripts automatizados 
