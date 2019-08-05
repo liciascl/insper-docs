@@ -201,7 +201,7 @@ sudo cp -rf lib/* /lib
 
 Aguarde o Host Pc terminar a instalação e reinicie o sistema para validar as configurações
 
-[Fim da instalação](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/Screenshot%20from%202019-07-29%2017-34-37.png)
+![Fim da instalação](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/Screenshot%20from%202019-07-29%2017-34-37.png)
 
 ```
 sudo reboot
