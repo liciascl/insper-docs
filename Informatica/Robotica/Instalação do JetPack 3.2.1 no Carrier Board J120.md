@@ -21,7 +21,7 @@ Neste guia, faremos os setups iniciais no carrier board J120 com o módulo da Nv
 # Configurando o Host PC 
 
 - Conecte o seu Computador a uma rede local 
-- Em seu computador, rodando um Linux 16.04 faça o [download do JetPack 3.2.1](link/JetPack-L4T-3.2.1-linux-x64_b23.run)
+- Em seu computador, rodando um Linux 16.04 faça o [download do JetPack 3.2.1](https://developer.nvidia.com/embedded/jetpack-3_2_1)
 - Abra o terminal e crie uma pasta no seu diretório
 ```
 mkdir ~/j120
@@ -52,10 +52,8 @@ Configure corretamente o diretório para instalação
 ![Configure corretamente o diretório para instalação](img/JetPack_2.png) 
 Selecione a placa Jetson TX2
 ![Selecione a placa Jetson TX2](img/JetPack_3.png) 
-Configure corretamente os pacotes que serão instalados na placa
-![Configure corretamente os pacotes que serão instalados na placa](img/JetPack_4.png) 
-Configure corretamente os pacotes que serão instalados na placa
-![Configure corretamente os pacotes que serão instalados na placa](img/JetPack_5.png) 
+Escolha aqui o que será instalado na sua J120
+![Configure corretamente os pacotes que serão instalados na placa](img/JetPack.jpeg) 
 Next para seguir a instalção
 ![Next para seguir a instalção](img/Jetson_7.png) 
 Selecione Finish
@@ -64,7 +62,7 @@ Selecione Finish
 
 # Agora vamos baixar o kernel e os patches da Auvidea J120-IMU v1.5
 
-Você pode fazer o Download do arquivo diretamente clicanto [aqui](link/ChangesTX2J140_Kernel_r28.1.tgz), ou, use o comando a seguir para baixar pelo terminal 
+Você pode fazer o Download do arquivo com o comando a seguir para baixar pelo terminal 
 
 
 ```
@@ -79,8 +77,6 @@ Descompacte o arquivo
 tar zxvf ChangesTX2J140_Kernel_r28.1_v1.5.tar.gz
 
 ```
-siga os passos conforme a imagem...
-![imagem](img/Jetson_6.png)
 
 - Copie o Arquivo baixado para o diretório Linux_for_Tegra_TX2 dentro da pasta 64_TX2 usando o comando a seguir;
 
@@ -163,7 +159,7 @@ lsusb
 
 ```
 
-![Verificando se a placa está no modo de programação](img/Jetson_15.png)
+![Verificando se a placa está no modo de programação](img/lsusb.png)
 
 
 # Hora de gravar o firmawre na placa! 
@@ -185,8 +181,7 @@ sudo cp -r /boot /boot_bkup
 sudo cp -r /lib /lib_bkup
 ```
 
-Faça o Download do pacote da Audivea J120-IMU clicanto [aqui](link/ChangesTX2J140_Kernel_r28.1.tgz), ou, use o comando a seguir para baixar pelo terminal 
-
+Faça o Download do pacote da Audivea J120-IMU
 
 ```
  cd ~/Downloads
