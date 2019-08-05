@@ -48,14 +48,19 @@ Execute o JetPack 3.2.1
 
 Clique em Next
 ![Clique em Next](img/JetPack_1.png) 
+
 Configure corretamente o diretório para instalação
 ![Configure corretamente o diretório para instalação](img/JetPack_2.png) 
+
 Selecione a placa Jetson TX2
 ![Selecione a placa Jetson TX2](img/JetPack_3.png) 
+
 Escolha aqui o que será instalado na sua J120
 ![Configure corretamente os pacotes que serão instalados na placa](img/JetPack.jpeg) 
+
 Next para seguir a instalção
 ![Next para seguir a instalção](img/Jetson_7.png) 
+
 Selecione Finish
 ![Selecione Finish](img/Jetson_8.png) 
 
@@ -70,7 +75,9 @@ Conecte a fonte de alimentação na sua placa
 
 ![Ligação do cabo de alimentação](img/jetson_energia.jpeg) 
 
-Para entrar em modo de programação, aperte e solte o botão Power, depois segure o botão Recovery ao mesmo tempo em que segura o botão de Reset por dois segundos, logo após, solte o botão de Recovery, e, por ultimo, solte o botão de Reset. 
+
+Para entrar em modo de programação, aperte e solte o botão Power, depois segure o botão Recovery ao mesmo tempo em que segura o botão de Reset por dois segundos, logo após, solte o botão de Reset, e, por ultimo, solte o botão de Recovery. 
+
 
 ![Entre no modo de programação](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/programacaotx2.gif)
 
@@ -84,19 +91,16 @@ lsusb
 ![Verificando se a placa está no modo de programação](img/lsusb.png)
 
 
-Conecte o cabo HDMI, o cabo micro usb e o cado de rede na sua JetsonTX2 
+Conecte o cabo HDMI, o cabo micro usb e o cabo de rede na sua JetsonTX2 e no seu Pc 
 
-![Ligação dos periféricos](img/jetson_microusb.jpeg)
+![Ligação dos periféricos](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/jetson_microusb.jpeg)
 
-
-![j120_program](img/j120_program.png) 
-- Dê Enter neste terminal quando a Jetson TX2 estiver em modo de programação
-
+Dê Enter neste terminal quando a Jetson TX2 estiver em modo de programação
+![j120_program](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/Screenshot%20from%202019-07-29%2016-58-05.png) 
 
 Aguarde o Host Pc terminar a instalação e reinicie o sistema para validar as configurações
 
 
-![Fim da instalação]()
 
 
 
