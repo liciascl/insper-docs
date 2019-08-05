@@ -26,20 +26,20 @@ Neste guia, faremos os setups iniciais no carrier board J120 com o módulo da Nv
 ```
 mkdir ~/j120
 ```
-- Mova o JetPack 3.2.1 para dentro da pasta criada
+Mova o JetPack 3.2.1 para dentro da pasta criada
 
 ```
 mv ~/Downloads/JetPack-L4T-3.2.1-linux-x64_b23.run  ~/j120
 
 ```
-- Garanta que o JetPack tem permissão para executar 
+Garanta que o JetPack tem permissão para executar 
 
 ```
  chmod +x JetPack-L4T-3.2.1-linux-x64_b23.run 
 
 ```
 
-- Execute o JetPack 3.2.1
+Execute o JetPack 3.2.1
 
 ```
 ./JetPack-L4T-3.2.1-linux-x64_b23.run 
@@ -78,14 +78,14 @@ tar zxvf ChangesTX2J140_Kernel_r28.1_v1.5.tar.gz
 
 ```
 
-- Copie o Arquivo baixado para o diretório Linux_for_Tegra_TX2 dentro da pasta 64_TX2 usando o comando a seguir;
+Copie o Arquivo baixado para o diretório Linux_for_Tegra_TX2 dentro da pasta 64_TX2 usando o comando a seguir;
 
 ```
 cp ~/Downloads/CTI-L4T-V112.tgz ~/j120/64_TX2/Linux_for_Tegra_TX2
 
 ```
 
-- Descompacte os arquivos com o comando;
+Descompacte os arquivos com o comando;
 
 
 ```
@@ -132,11 +132,11 @@ Execute o JetPack novamente, certifique-se de que em "Flash OS Image to Target" 
 
 Hora de conectar um monitor a sua placa
 
-![Ligação do cabo hdmi](J120_hdmi.jpeg)
+![Ligação do cabo hdmi](j120_hdmi.jpeg)
 
 Conecte o J120 a mesma rede que o seu computador 
 
-![Ligação do cabo de rede](J120_cabo.jpeg)
+![Ligação do cabo de rede](j120_cabo.jpeg)
 
 Conecte os cabos de alimentação tomando cuidado com a polaridade
 
@@ -147,12 +147,12 @@ Conecte os cabos de alimentação tomando cuidado com a polaridade
 ![Conectando a fonte de alimentação](img/Jetson_11.jpeg)
 
 
-- Segure o botão Power, depois o Recovery, depois o Reset
-- Solte o Power, depois o Recovery, depois o Reset para entrar em mode de programação
+Segure o botão Power, depois o Recovery, depois o Reset
+Solte o Power, depois o Recovery, depois o Reset para entrar em mode de programação
 
 ![Entre no modo de programação](img/programacão.mp4)
 
-- Verifique se a placa está no modo de programação
+Verifique se a placa está no modo de programação
 
 ```
 lsusb
@@ -168,11 +168,11 @@ lsusb
 - Dê Enter neste terminal quando a J120 estiver em modo de programação
 
 
-- Aguarde mais um pouco, a gravação ainda não terminou
+Aguarde mais um pouco, a gravação ainda não terminou
 
 ![Aguarde](img/j120_program2.png)
 
-- Enquanto o Host Pc faz a instalção dos pacotes via rede, vamos até a J120 fazer algumas configurações;
+Enquanto o Host Pc faz a instalção dos pacotes via rede, vamos até a J120 fazer algumas configurações;
 
 Abra o terminal e digite esses comandos para fazer uma copia dos seus arquivos de boot;
 
@@ -207,6 +207,9 @@ Aguarde o Host Pc terminar a instalação e reinicie o sistema para validar as c
 sudo reboot
 
 ```
+
+
+
 
 
 ## Tutorial baseado no [Setup J120-IMU for Jetson TX](https://shiroku.net/robotics/setup-j120-imu-for-jetson-tx2) 
