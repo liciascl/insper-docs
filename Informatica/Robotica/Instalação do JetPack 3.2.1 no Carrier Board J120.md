@@ -132,11 +132,11 @@ Execute o JetPack novamente, certifique-se de que em "Flash OS Image to Target" 
 
 Hora de conectar um monitor a sua placa
 
-![Ligação do cabo hdmi](j120_hdmi.jpeg)
+![Ligação do cabo hdmi](img/j120_hdmi.jpeg)
 
 Conecte o J120 a mesma rede que o seu computador 
 
-![Ligação do cabo de rede](j120_cabo.jpeg)
+![Ligação do cabo de rede](img/j120_cabo.jpeg)
 
 Conecte os cabos de alimentação tomando cuidado com a polaridade
 
