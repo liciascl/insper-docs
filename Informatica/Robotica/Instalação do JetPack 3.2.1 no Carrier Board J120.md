@@ -125,7 +125,7 @@ Execute o JetPack novamente, certifique-se de que em "Flash OS Image to Target" 
 
 ```
 
-![JetPack](img/JetPack.png)
+![JetPack](img/JetPack.jpeg) 
 
 
 # Vamos conlocar a J120 em modo de programção!
@@ -200,6 +200,8 @@ sudo cp -rf lib/* /lib
 ```
 
 Aguarde o Host Pc terminar a instalação e reinicie o sistema para validar as configurações
+
+[Fim da instalação](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/Screenshot%20from%202019-07-29%2017-34-37.png)
 
 ```
 sudo reboot
