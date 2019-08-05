@@ -132,11 +132,11 @@ Execute o JetPack novamente, certifique-se de que em "Flash OS Image to Target" 
 
 Hora de conectar um monitor a sua placa
 
-![Ligação do cabo hdmi](img/j120_hdmi.jpeg)
+![Ligação do cabo hdmi](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/j120_hdmi.jpeg)
 
 Conecte o J120 a mesma rede que o seu computador 
 
-![Ligação do cabo de rede](img/j120_cabo.jpeg)
+![Ligação do cabo de rede](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/j120_cabo.jpeg)
 
 Conecte os cabos de alimentação tomando cuidado com a polaridade
 
@@ -150,7 +150,7 @@ Conecte os cabos de alimentação tomando cuidado com a polaridade
 Segure o botão Power, depois o Recovery, depois o Reset
 Solte o Power, depois o Recovery, depois o Reset para entrar em mode de programação
 
-![Entre no modo de programação](img/programacão.mp4)
+![Entre no modo de programação](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/img/programacao.gif)
 
 Verifique se a placa está no modo de programação
 
