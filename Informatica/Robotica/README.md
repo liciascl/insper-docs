@@ -1,9 +1,9 @@
 # Tutoriais 
 [Instalação do JetPack 3.2.1 no Carrier Board J120](https://github.com/liciascl/insper-docs/blob/J120/Informatica/Robotica/Instala%C3%A7%C3%A3o%20do%20JetPack%203.2.1%20no%20Carrier%20Board%20J120.md)
 
-[Instalação do JetPack 3.2.1 no Development Kit Jetson TX2](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/JetPack 3.2.1_Development_Kit_Jetson_TX2.md)
+[Instalação do JetPack 3.2.1 no Development Kit Jetson TX2](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/JetPack_3.2.1_Development_Kit_Jetson_TX2.md)
 
-[Instalação do YOLOV3 na JetsonTX2](https://github.com/Insper/404/blob/master/Jetson_TX2/Tutorial_YOLOV3_on_JETSONTX2.md)
+[Instalação do YOLOV3 na JetsonTX2](https://github.com/Insper/404/blob/master/Jetson_Tx2/Tutorial_YOLOV3_on_JETSONTX2.md)
 
 [Como conectar na rede asimov](https://github.com/Insper/404/blob/master/Rede_Asimov/Como_se_conectar_na_rede_asimov.md)
 
