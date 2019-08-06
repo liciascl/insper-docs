@@ -64,7 +64,7 @@ then
 	   	  		   	                	then
 										cd $path
 								 		echo "o opencv foi instalado com sucesso no python2 tambem, agora vamos instalar o hector slam"
-										exec "./instalar_hector_slam.sh"
+										exec "./instalar_hecto_slam.sh"
 								
 									fi
 								fi
