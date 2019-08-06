@@ -1,6 +1,9 @@
 #!/bin/bash
 #Autor Lícia Sales
 #30-Jul-2019
+
+path=$(pwd)
+echo $path
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -9,7 +12,6 @@ if [ $? -eq 0 ]
 then
     echo "as keys criptográficas que assinam o software do ROS foram configuradas com sucesso"
     sudo apt update
-    sudo apt-get install -y screen
     sudo apt-get install -y ros-melodic-joy ros-melodic-teleop-tools  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc ros-melodic-rgbd-launch  ros-melodic-rosserial-arduino ros-melodic-rosserial-python ros-melodic-rosserial-server ros-melodic-rosserial-client ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro ros-melodic-compressed-image-transport ros-melodic-rqt-image-view  ros-melodic-navigation ros-melodic-interactive-markers  ros-melodic-kobuki-ftdi ros-melodic-ar-track-alvar-msgs ros-melodic-teleop-tools python-rosinstall
     if [ $? -eq 0 ]
     then	
@@ -50,20 +52,20 @@ then
 					        if [ $? -eq 0 ]
    	  		   	               then
 								echo "os gits para controle do Turtlebot foram clonandos com sucesso dos repositórios da ROBOTIS"
-								exec "~/insper-docs/Informatica/Robotica/Scripts/instalar_opencv_jupyter.sh"							
+								cd $path
+								exec "./instalar_opencv_jupyter.sh"							
 							
 								if [ $? -eq 0 ]
    	  		   	                	then
-									echo "o opencv no python3 foi instalado, vamos instalar no python2 agora"					
-									exec "~/insper-docs/Informatica/Robotica/Scripts/instalar_opencv_python2.sh"
+									echo "o opencv no python3 foi instalado, vamos instalar no python2 agora"								cd $path
+									exec "./instalar_opencv_python2.sh"
 									
 									if [ $? -eq 0 ]
 	   	  		   	                	then
+										cd $path
 								 		echo "o opencv foi instalado com sucesso no python2 tambem, agora vamos instalar o hector slam"
-
-										exec "~/insper-docs/Informatica/Robotica/Scripts/instalar_hecto_slam.sh"
-										echo 0
-                    
+										exec "./instalar_hector_slam.sh"
+								
 									fi
 								fi
 							fi
@@ -74,3 +76,12 @@ then
 		fi				   
 	fi
 fi
+
+
+
+
+
+
+
+
+
