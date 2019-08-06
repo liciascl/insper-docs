@@ -9,6 +9,7 @@ if [ $? -eq 0 ]
 then
     echo "as keys criptográficas que assinam o software do ROS foram configuradas com sucesso"
     sudo apt update
+    sudo apt-get install -y screen
     sudo apt-get install -y ros-melodic-joy ros-melodic-teleop-tools  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc ros-melodic-rgbd-launch  ros-melodic-rosserial-arduino ros-melodic-rosserial-python ros-melodic-rosserial-server ros-melodic-rosserial-client ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro ros-melodic-compressed-image-transport ros-melodic-rqt-image-view  ros-melodic-navigation ros-melodic-interactive-markers  ros-melodic-kobuki-ftdi ros-melodic-ar-track-alvar-msgs ros-melodic-teleop-tools python-rosinstall
     if [ $? -eq 0 ]
     then	
@@ -59,8 +60,10 @@ then
 									if [ $? -eq 0 ]
 	   	  		   	                	then
 								 		echo "o opencv foi instalado com sucesso no python2 tambem, agora vamos instalar o hector slam"
-										exec "~/insper-docs/Informatica/Robotica/Scripts/instalar_hector_slam.sh"
-								
+
+										exec "~/insper-docs/Informatica/Robotica/Scripts/instalar_hecto_slam.sh"
+										echo 0
+                    
 									fi
 								fi
 							fi

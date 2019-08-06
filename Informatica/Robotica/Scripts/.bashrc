@@ -1,8 +1,3 @@
-#!/bin/bash
-
-sudo mv ~/.bashrc ~/.bashrcopy
-cat <<EOF > ~/.bashrc
---------------------
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -123,10 +118,11 @@ fi
 
 
 # 3.o Semestre Comp.
-#export IPBerry=192.168.0.110
 # CANCELE  com # as linhas ROS_MASTER_URI  e ROS_IP se estiver usando com Gazebo, Sphinx ou Bebop
-#export ROS_MASTER_URI="http://"$IPBerry":11311" 
-#export ROS_IP=`hostname -I`
+export IPBerry=192.168.0.110
+# export ROS_MASTER_URI="http://"$IPBerry":11311"
+# export ROS_IP=`hostname -I`
+export TURTLEBOT3_MODEL=burger
 
 export ALTERAPATH=~/intelFPGA_lite/17.1
 export PATH=$PATH:${ALTERAPATH}/quartus/bin
@@ -137,11 +133,7 @@ export QSYS_ROOTDIR="~/intelFPGA_lite/17.1/quartus/sopc_builder/bin"
 export GOOGLE_APPLICATION_CREDENTIALS=~/.local/share/elementos/elementos.json
 
 source /opt/ros/melodic/setup.bash
-source ~/catkin_ws/devel/setup.bash
 export TURTLEBOT3_MODEL=waffle_pi
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ros/melodic/lib/parrot_arsdk/:${ALTERAPATH}/modelsim_ase/lib32
-
-export PYTHONPATH=/usr/local/python:/usr/lib/python:$PYTHONPATH:
-
---------------------
-EOF
+export PYTHONPATH=/usr/local/python:/usr/lib/python:$PYTHONPAT
+source ~/catkin_ws/devel/setup.bash
