@@ -1,7 +1,9 @@
 #!/bin/bash
+#Autor Lícia Sales
+#30-Jul-2019
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
 if [ $? -eq 0 ]
 then
@@ -58,8 +60,10 @@ then
 									if [ $? -eq 0 ]
 	   	  		   	                	then
 								 		echo "o opencv foi instalado com sucesso no python2 tambem, agora vamos instalar o hector slam"
+
 										exec "~/insper-docs/Informatica/Robotica/Scripts/instalar_hecto_slam.sh"
 										echo 0
+                    
 									fi
 								fi
 							fi
@@ -70,5 +74,3 @@ then
 		fi				   
 	fi
 fi
-
-exit
