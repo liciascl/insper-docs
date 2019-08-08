@@ -1,4 +1,7 @@
 # Tutoriais 
+
+[Tutorial para criar um mapa usando o gmapping e utilizar o navegation em ambiente simulado](https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md)
+
 [Instalação do JetPack 3.2.1 no Carrier Board J120](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/JetPack%203.2.1_Carrier_Board_J120.md)
 
 [Instalação do JetPack 3.2.1 no Development Kit Jetson TX2](https://github.com/liciascl/insper-docs/blob/master/Informatica/Robotica/JetPack%203.2.1_Development_Kit_Jetson_TX2.md)
